@@ -8,16 +8,17 @@ export default class Header extends Component {
         <div className="h-full flex">
           <section className="h-full w-1/2 flex items-center">
           
-            <h1 className="pl-12 text-3xl font-semibold">talks.</h1>
+            <h1 className="pl-20 text-4xl font-semibold ">talks.</h1>
           </section>
 
-          <section className="h-full w-1/2 flex justify-end gap-10 items-center pr-6">
+          <section className="h-full w-1/2 flex justify-end gap-10 items-center pr-6 text-sm">
     
             <a href="">Our story</a>
             <a href="">Membership</a>
             <a href="">Write</a>
             <a href="">Sign In</a>
-            <a href="">Get started</a>
+            <button className="bg-black text-white py-2 px-4 rounded-3xl font-semibold">Get started</button>
+
            
           </section>
 
