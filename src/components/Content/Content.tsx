@@ -9,9 +9,11 @@ export default class Content extends Component {
         return (
             <div>
                  <Routes>
-                  
+                    <Route path="/" element={<Home />}></Route>
                     <Route path="/SignIn" element={<SignIn/>}></Route>
                     <Route path="/SignUp" element={<SignUp/>}></Route>
+                    <Route path="/Home" element={<Home />}></Route>
+                    
                    
 
                 </Routes>
