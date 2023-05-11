@@ -15,23 +15,22 @@ export default class Header3 extends Component {
                 
                   {/* <h1 className="pl-20 text-4xl font-semibold ">talks.</h1> */}
                   <NavLink to={"/Profile"} className="pl-20 text-4xl font-semibold">
-                  talks.
-                      </NavLink>
+                    talks.
+                  </NavLink>
                 </section>
       
                 <section className="h-full w-1/2 flex justify-end gap-8 items-center pr-6 text-sm">
           
                 <NotificationsNoneOutlinedIcon  fontSize="medium" />
-            
-            <NavLink to={"/Profile"}>
-            <img src={UserImage} alt="userImage" className="w-10 h-10" />
-          </NavLink>
-                  <button className="bg-green-600 text-white py-2 px-4 rounded-3xl font-semibold">Get started</button>
+                
+                <NavLink to={"/Profile"}>
+                <img src={UserImage} alt="userImage" className="w-10 h-10" />
+                </NavLink>
+
+                <button className="bg-green-600 text-white py-2 px-4 rounded-3xl font-semibold">Publish</button>
       
                  
                 </section >
-      
-               
       
               </div>
             </section>
