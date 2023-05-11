@@ -35,7 +35,7 @@ export default class SignIn extends Component {
             />
 
 
-   <NavLink to={"/Home"}>
+   <NavLink to={"/Profile"}>
      <button className="w-full bg-yellow-500 text-white py-3 rounded">
        Sign In
      </button>

@@ -8,8 +8,8 @@ export default class Ourstory extends Component {
             <Header/>
             <div className="p-1 ">
                 <div className="  mt-20">
-                <section className=" bg-white w-full  h-52  text-Black border-b-2 border-black relative ">
-                <h1 className="mt-32 pt-4 font-sans md:font-serif text-8xl text-center font-medium">Every idea needs a talk.</h1>
+                <section className=" bg-white w-full  h-56  text-Black border-b-2 border-black relative ">
+                <h1 className="mt-44 pt-4 font-sans md:font-serif text-8xl text-center font-medium">Every idea needs a talk.</h1>
                     </section>
                    
                     <p>
