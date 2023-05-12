@@ -35,8 +35,6 @@ export default class Header3 extends Component {
               </div>
             </section>
       
-           
-      
             </div>
             </>
         )
