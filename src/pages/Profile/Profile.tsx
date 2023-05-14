@@ -9,6 +9,10 @@ export default class Profile extends Component {
                 <Header2/>
                 <Post _id="fhfghfg" title="fghf" description="fghfgh" hoursCount={4} lecturerName="fghfh" />
                 <Post _id="fhfghfg" title="fghf" description="fghfgh" hoursCount={4} lecturerName="fghfh" />
+                <Post _id="fhfghfg" title="fghf" description="fghfgh" hoursCount={4} lecturerName="fghfh" />
+                <Post _id="fhfghfg" title="fghf" description="fghfgh" hoursCount={4} lecturerName="fghfh" />
+                <Post _id="fhfghfg" title="fghf" description="fghfgh" hoursCount={4} lecturerName="fghfh" />
+                <Post _id="fhfghfg" title="fghf" description="fghfgh" hoursCount={4} lecturerName="fghfh" />
                 
             </div>
         )
