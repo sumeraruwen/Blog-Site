@@ -6,8 +6,7 @@ type PostProps = {
     _id: string;
     title: string;
     description: string;
-    hoursCount?: number;
-    lecturerName?: string;
+    category?: string;
     tags: string[];
     // removePostFromList?: (postId: string) => void;
   };
@@ -21,14 +20,10 @@ export default class Post extends Component<PostProps,PostState> {
         <h3 className="text-2xl font-bold">{this.props.title}</h3>
         {this.props.description}
         <span className="flex space-x-5">
-          {this.props.hoursCount ? (
-            <p>
-              <strong>Hours count</strong> : {this.props.hoursCount}
-            </p>
-          ) : null}
-          {this.props.lecturerName ? (
-            <p>
-              <strong>Lecturer Name</strong> : {this.props.lecturerName}
+        
+          {this.props.category ? (
+            <p className="text-blue-500">
+               {this.props.category}
             </p>
           ) : null}
         </span>
