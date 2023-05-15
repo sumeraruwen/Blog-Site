@@ -7,12 +7,13 @@ export default class Profile extends Component {
         return (
             <div>
                 <Header2/>
-                <Post _id="fhfghfg" title="fghf" description="fghfgh" hoursCount={4} lecturerName="fghfh" />
-                <Post _id="fhfghfg" title="fghf" description="fghfgh" hoursCount={4} lecturerName="fghfh" />
-                <Post _id="fhfghfg" title="fghf" description="fghfgh" hoursCount={4} lecturerName="fghfh" />
-                <Post _id="fhfghfg" title="fghf" description="fghfgh" hoursCount={4} lecturerName="fghfh" />
-                <Post _id="fhfghfg" title="fghf" description="fghfgh" hoursCount={4} lecturerName="fghfh" />
-                <Post _id="fhfghfg" title="fghf" description="fghfgh" hoursCount={4} lecturerName="fghfh" />
+                <Post _id="fhfghfg" title="Here’s How To Earn Cryptocurrency In 2023 With No Investment" description="I’ve learned that a significant part of
+                 attraction is rooted in standing out from the crowd. There’s something irresistible and even mysterious" hoursCount={4} lecturerName="fghfh" tags={["sumera","venura"]} />
+                <Post _id="fhfghfg" title="fghf" description="fghfgh" hoursCount={4} lecturerName="fghfh" tags={["sumera","venura"]}/>
+                <Post _id="fhfghfg" title="fghf" description="fghfgh" hoursCount={4} lecturerName="fghfh" tags={["sumera","venura"]} />
+                <Post _id="fhfghfg" title="fghf" description="fghfgh" hoursCount={4} lecturerName="fghfh" tags={["sumera","venura"]} />
+                <Post _id="fhfghfg" title="fghf" description="fghfgh" hoursCount={4} lecturerName="fghfh"  tags={["sumera","venura"]}/>
+                <Post _id="fhfghfg" title="fghf" description="fghfgh" hoursCount={4} lecturerName="fghfh" tags={["sumera","venura"]}/>
                 
             </div>
         )

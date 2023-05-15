@@ -19,11 +19,11 @@ export default class Home extends Component {
         
              </section>
 
+             {/* <Post _id="fhfghfg" title="fghf" description="fghfgh" hoursCount={4} lecturerName="fghfh"  />
              <Post _id="fhfghfg" title="fghf" description="fghfgh" hoursCount={4} lecturerName="fghfh" />
              <Post _id="fhfghfg" title="fghf" description="fghfgh" hoursCount={4} lecturerName="fghfh" />
              <Post _id="fhfghfg" title="fghf" description="fghfgh" hoursCount={4} lecturerName="fghfh" />
-             <Post _id="fhfghfg" title="fghf" description="fghfgh" hoursCount={4} lecturerName="fghfh" />
-             <Post _id="fhfghfg" title="fghf" description="fghfgh" hoursCount={4} lecturerName="fghfh" />
+             <Post _id="fhfghfg" title="fghf" description="fghfgh" hoursCount={4} lecturerName="fghfh" /> */}
             
              
          </div>
